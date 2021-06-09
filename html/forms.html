@@ -1,0 +1,71 @@
+<html>
+    <title>Forms</title>
+    <body>
+        <h1>Using Forms</h1>
+        <form action = "http://www.twitter.com" method = "get">
+            <p>
+                Username:
+                <input type = "text" name = "username" size = "15" maxlength = "30" />
+            </p>
+            <p>
+                Password:&nbsp;
+                 <input type = "password" name = "password" size = "15" maxlength="30" />
+
+            </p>
+            <p>For comments:</p>
+            <p>
+                <textarea name = "comments" cols = "20" rows = "4">Enter your comments...</textarea>
+            </p>
+            <p>
+                (radio)Select your favorite social media:
+                <input type = "radio" name = "social media" value = "Twitter" checked = "checked" /> Twitter 
+                <input type = "radio" name = "social media" value = "Reddit" />Reddit
+                <input type = "radio" name = "social media" value="Facebook" />Facebook
+            </p>
+            <p>(checkbox)Your nationality:</p>
+            <p>
+                <input type = "checkbox" name = "nationality" value = "Nepali">Nepali<br>
+                <input type = "checkbox" name = "nationality" value = "Indian">Indian<br>
+                <input type = "checkbox" name = "nationality" value = "American">American<br>
+            </p>
+            <p>(Drop-down list box)Places:</p>
+            <p>
+                <select name = "Places">
+                    <option value = "Kathmandu">Kathmandu</option>
+                    <option value="Pokhara">Pokhara</option>
+                    <option value="Butwal">Butwal</option>
+                </select>
+            </p>
+            <p>Music Genre:</p>
+            <p>
+                <select name = "Genre" multiple = "multiple" size = "3">
+                    <option value = "Jazz" selected = "selected">Jazz</option>
+                    <option value = "Rock">Rock</option>
+                    <option value = "Indie">Indie</option>
+                    <option value = "Sufi" selected = "selected">Sufi</option>
+                </select>
+            </p>
+            <p>Subcribe:</p>
+            <input type = "text" name = "email">
+            <input type = "submit" name = "Subcribe" value = "Subcribe">
+            
+
+        </form>
+        <form action =  "http://www.example.com/upload.php"
+        method="post" method = "POST">
+        <p>Upload your file:</p>
+        <p>
+            <input type = "file" name = "file"><br>
+            <input type = "submit" value="upload">
+       </p>
+       <input type="text" name = "email">
+       <input type = "image" src = "images/first sight.jpg" width = "50" height = "50">
+       </form>
+       <form action="http://www.example.com/add.php">
+        <button><img src="images/fairy_with_the_flower.jpg" alt="add"
+                 width="10" height="10" /> Add</button>
+        <input type="hidden" name="bookmark"
+                 value="lyrics" />
+        </form>
+    </body>
+</html>
