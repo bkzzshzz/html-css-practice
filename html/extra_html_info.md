@@ -18,5 +18,11 @@ __XML Declaration__
 
 # Giving remarks in HTML
 There's _one_ way of giving a remark in html. 
-```<!-- start of introduction -->
-<!-- <a href="mailto:info@example.org">Contact</a> -->```
+
+```<!-- start of introduction -->```
+```<!-- <a href="mailto:info@example.org">Contact</a> -->```
+
+## Block Elements
+
+Those elements that appear to start on a new line in the browser window are called block elements. Examples: <h1>, <p>, <ul>, and <li>.
+
