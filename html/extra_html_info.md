@@ -32,6 +32,6 @@ Those elements that appear in the same line as the texts are called inline eleme
 
 ## Escape Characters
 
-![escape](/Desktop/html_css_practice/html/images/Screenshot from 2021-06-10 18-09-08.png)
+![escape_characters](https://github.com/bkzzshzz/html-css-practice/blob/main/html/images/escape_characters.png)
 
 
