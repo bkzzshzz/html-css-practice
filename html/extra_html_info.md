@@ -4,15 +4,15 @@
 __HTML5__
     <!DOCTYPE html>
 __HTML 4__
-    <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+```<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">```
 __Transitional XHTML 1.0__
-    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/ xhtml1-transitional.dtd">
+```<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/ xhtml1-transitional.dtd">```
 __Strict XHTML 1.0__
-    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/ xhtml1-strict.dtd">
+```<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/ xhtml1-strict.dtd">```
 __XML Declaration__
-    <xml version = "1.0">
+```<xml version = "1.0">```
 
 # Giving remarks in HTML
 There's _one_ way of giving a remark in html. 
-    <!-- start of introduction -->
-    <!-- <a href="mailto:info@example.org">Contact</a> -->
+```<!-- start of introduction -->
+<!-- <a href="mailto:info@example.org">Contact</a> -->```
