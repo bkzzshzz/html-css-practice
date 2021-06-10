@@ -59,13 +59,88 @@
             <input type = "submit" value="upload">
        </p>
        <input type="text" name = "email">
-       <input type = "image" src = "images/first sight.jpg" width = "50" height = "50">
+       <input type = "image" src = "images/first_sight.jpg" width = "50" height = "50">
        </form>
        <form action="http://www.example.com/add.php">
-        <button><img src="images/fairy_with_the_flower.jpg" alt="add"
+        <button><img src="images/Pencil-Drawings-Combined-With-Photographs-9.jpg" alt="add"
                  width="10" height="10" /> Add</button>
         <input type="hidden" name="bookmark"
                  value="lyrics" />
         </form>
+        <h2>Label</h2>
+        <form>
+            <label>Name: <input type = "text" name = "nationality"></label>
+            <br>
+            Nationality: <input type = "radio" name = "nationality" value = "SAARC"><label for = "female">SAARC</label> 
+            <input type = "radio" name = "nationality" value = "Non-SAARC"><label for = "Non-SAARC">Non-SAARC</label>
+        </form>
+        <h2>Grouping form elements using fieldset and legend</h2>
+        <form>
+            <fieldset>
+                <legend>Contact details:</legend>
+                Email:
+                <label><input type = "text" name = "email"></label><br>
+                Mobile:
+                <label>
+                    <input type = "text" name = "mobile"><br>
+                </label>
+                Telephone:
+                <label>
+                    <input type = "text" name = "telephone">
+                </label>
+            </fieldset>
+
+        </form>
+        <h2>Form Validation</h2>
+        <form action = "https://twitter.com" method="post">
+            <label for = "username">Username:</label>
+            <input type = "text" required = "required"><br>
+            <label for = "password">Password:</label>
+            <input type = "password" required = "required">
+            <input type = "submit" value = "Submit">
+
+        </form>
+        <form action = "forms.html" method = "post">
+            <label for = "username">Departure Date:</label>
+            <input type="date" name = "depart">
+            <input type = "submit" value = "Submit">
+        </form>
+        <form action = "forms.html">
+            <p>Enter your email:</p>
+            <input type = "email" name = "email">
+            <input type = "submit" value = "Submit">
+        </form>
+        <form action = "forms.html">
+            <p>Enter your website:</p>
+            <input type = "url" name = "website">
+            <input type = "submit" value="Submit">
+        </form>
+        <form action = "forms.html">
+            <p>Search:</p>
+            <input type = "search" name = "search">
+            <input type = "submit" name = "Search">
+        </form>
+        <form action = "forms.html">
+            <fieldset>
+                <legend>Your Details:</legend>
+                <label for = "name">Name:</label>
+                <input type = "text" name = "name"><br>
+                <label for = "email" name = "email">Email:</label>
+                <input type = "email" name = "email">
+            </fieldset>
+            <fieldset>
+                <legend>Your Review:</legend>
+                <p>How did you know about us?<select size = "1">
+                    <option>Google</option>
+                    <option>Facebook</option>
+                    <option>Twitter</option>
+                </select></p>
+                <p>Would you like to visit again?</p>
+                <input type = "radio" value = "yes">Yes <input type = "radio" value = "no">No <input type = "radio" value = "maybe">Maybe 
+                <p>Comments:</p>
+                <textarea name = "comments" cols = "20" rows = "4">Enter your comments:</textarea>
+            </fieldset>
+        </form>
+
     </body>
 </html>
