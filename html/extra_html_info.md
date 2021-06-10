@@ -2,7 +2,7 @@
 ## Used to inform the browser about the version of HTML used
 
 __HTML5__
-    <!DOCTYPE html>
+```<!DOCTYPE html>```
 
 __HTML 4__
 ```<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">```
