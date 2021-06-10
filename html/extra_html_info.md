@@ -24,5 +24,5 @@ There's _one_ way of giving a remark in html.
 
 ## Block Elements
 
-Those elements that appear to start on a new line in the browser window are called block elements. Examples: <h1>, <p>, <ul>, and <li>.
+Those elements that appear to start on a new line in the browser window are called block elements. Examples: `<h1>`, `<p>`, `<ul>`, and `<li>`.
 
