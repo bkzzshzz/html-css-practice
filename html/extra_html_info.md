@@ -29,3 +29,9 @@ Those elements that appear to start on a new line in the browser window are call
 ## Inline Elements
 
 Those elements that appear in the same line as the texts are called inline elements. Examples: `<em>`, `<b>`, `<i>`, etc. 
+
+## Escape Characters
+
+![escape](/Desktop/html_css_practice/html/images/Screenshot from 2021-06-10 18-09-08.png)
+
+
