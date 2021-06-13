@@ -1,0 +1,27 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: violet;
+    padding: 100px;
+}
+
+.information {
+    border: 1px solid #665544;
+    background-color: #efefef;
+    padding: inherit;
+    background-color: tomato;
+}
+
+.page {
+    border: 1px solid #665544;
+    background-color: #efefef;
+    padding: inherit;
+    background-color:brown;
+    color:black;
+}
+
+.page1 {
+    padding: 150px;
+    background-color: blue;
+    color:khaki;
+
+}
