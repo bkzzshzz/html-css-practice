@@ -1,0 +1,41 @@
+body {
+    background-color:white;
+}
+p.best {
+    color:indigo;
+    background-color: honeydew;
+}
+p.top {
+    color: indianred;
+}
+
+h1.top {
+    color:honeydew;
+}
+h2.top {
+    color:grey;
+}
+h1.bottom {
+    color:indigo;
+}
+h2.bottom {
+    color: goldenrod;
+}
+
+.group {
+    color:firebrick;
+    background-color: violet;
+    background-color: hsl(20, 20%, 50%);
+}
+
+p.best {
+    color:forestgreen;
+    background-color: yellow;
+    opacity: 0.3;
+}
+
+p.lyric {
+    background-color:rgba(110, 219, 38, 1);
+    opacity:1;
+    /* rgb for three solid colors; rgba for an additonal fourth element with opacity */
+}
