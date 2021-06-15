@@ -1,0 +1,88 @@
+/* @font-face {
+    font-family:'Lobster_1.0';
+    src: url('/home/bikesh/Desktop/Lobster_1.0_.otf');
+} */
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: grey;
+}
+.title{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+    font-size: 40px;
+}
+.author {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    text-transform: capitalize; /*First letter of each word capitalize*/
+    /*text-decoration: blink; 
+    text-decoration: overline;
+    text-decoration: underline;
+    text-decoration: line-through; */
+}
+p.firststanza {
+    word-spacing: 1em;
+    line-height: 1.7em;
+    font-weight: bold;
+}
+p.secondstanza {
+    text-align: right;
+    font-weight: bolder;
+}
+p.thirdstanza {
+    text-align: justify;
+    /* font-weight: bold; */
+    font-style: italic;
+    text-transform: uppercase;
+}
+p.fourthstanza{
+    text-align:justify;
+    font-style:oblique;
+    text-transform: lowercase;
+    text-shadow: 1px 1px 0px #000000;
+}
+
+p.fourthstanza:first-line {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p.summary {
+    text-align: justify;
+    font-style: oblique;
+    background-color: tomato;
+    padding: 50px;
+    font-weight: bold;
+}
+
+p.summary:first-letter {
+    font-size: 200%
+}
+a {
+    font-size: 20px;
+}
+
+a:link {
+    color:violet
+}
+
+a:visited {
+    color:black;
+}
+
+a:hover {
+    color:blanchedalmond;
+}
+
+a:active {
+    color:darkcyan;
+}
+
+a:focus {
+    color:darkblue;
+}
+
+
+
+
+
+
